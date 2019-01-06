@@ -10,5 +10,10 @@ public class Greetings {
 	public String sayHello() {
 		return "Hello from openshift world";
 	}
+	
+	@GetMapping("/greetings")
+	public String greetings() {
+		return "Greetings from Openshift";
+	}
 
 }
